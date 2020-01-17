@@ -30,7 +30,6 @@ build/
 ### VS Code ###
 .vscode/
 
-### Properties ###
-project.properties
-*.properties
-project.properties
+### Sensitive Data ###
+src/main/resources/application.properties
+
