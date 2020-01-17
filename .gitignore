@@ -29,3 +29,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Properties ###
+project.properties
+*.properties
+project.properties
