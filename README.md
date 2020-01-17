@@ -2,29 +2,9 @@
 Simple Spring Boot login application with connected to AWS RDS.
 
 # Features
-=====Trainers=====
-* Register new trainers 
-* View a list of trainers
-
-=====Trainees=====
-* Register new trainees
-* View a list of trainees
-
-=====Courses=====
-* View a list of avaliable courses on offer
-* Register a new course
-
-=====Modules=====
-* View a list of modules that are taught 
-* Register a new module
-
-=====Classroom=====
-* View a list of classrooms and their capacitys 
-* Register a new classroom
-
-=====Groups=====
-* Register a new group and assign it trainees/trainers
-* Allocate a group to a classroom and assign it with a schedule (ie. start date and end dates)
+* Login and register a new user
+* Login credentials saved onto a MySQL Database
+* Password encrypted with Spring security and BCrypt
 
 ### Prerequisites
 ```
@@ -36,6 +16,6 @@ To run the application locally, You'll need to have a MySQL database (I used MyS
 ## Built With
 * [Spring Boot](https://spring.io/projects/spring-boot) - Platform based on Spring which provides a pre-defined web application development enviroment
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Spring Security] - https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
-* [Spring MVC] - https://mvnrepository.com/artifact/org.springframework/spring-webmvc
-* [MySQL] - https://mvnrepository.com/artifact/mysql/mysql-connector-java
+* [Spring Security](https://mvnrepository.com/artifact/org.springframework.security/spring-security-core) - Authentication and access-control framework
+* [Spring MVC](https://mvnrepository.com/artifact/org.springframework/spring-webmvc) - Web framework
+* [MySQL](https://mvnrepository.com/artifact/mysql/mysql-connector-java) - JDBC Driver for MySQL
