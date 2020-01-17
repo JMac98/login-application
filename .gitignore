@@ -33,3 +33,5 @@ build/
 ### Sensitive Data ###
 src/main/resources/application.properties
 
+.properties
+
