@@ -1,10 +1,12 @@
 # login-application
-Simple Spring Boot login application with connected to AWS RDS.
+Simple Spring Boot login application.
 
 # Features
 * Login and register a new user
 * Login credentials saved onto a MySQL Database
 * Password encrypted with Spring security and BCrypt
+
+Deployed into a EC2 instance 
 
 ### Prerequisites
 ```
@@ -19,3 +21,8 @@ To run the application locally, You'll need to have a MySQL database (I used MyS
 * [Spring Security](https://mvnrepository.com/artifact/org.springframework.security/spring-security-core) - Authentication and access-control framework
 * [Spring MVC](https://mvnrepository.com/artifact/org.springframework/spring-webmvc) - Web framework
 * [MySQL](https://mvnrepository.com/artifact/mysql/mysql-connector-java) - JDBC Driver for MySQL
+
+
+* [AWS RDS](https://aws.amazon.com/rds/) - Amazons cloud based relational database service
+* [AWS S3](https://aws.amazon.com/s3/) - Storage of application jar file
+* [AWS EC2](https://aws.amazon.com/ec2/) - Cloud computing service
