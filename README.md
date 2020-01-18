@@ -1,18 +1,19 @@
 # login-application
-Simple Spring Boot login application.
+Spring Boot login application.
 
 # Features
 * Login and register a new user
 * Login credentials saved onto a MySQL Database
 * Password encrypted with Spring security and BCrypt
+* Role access control
 
 Deployed into a EC2 instance 
 
 ### Prerequisites
 ```
-MySQL Installer (MySQL Workbench, MySQL Server, MySQL Sample database)- https://dev.mysql.com/downloads/installer/ 
+To run the application locally, you'll need to have a MySQL database on your local machine (I used MySQL Workbench) and specify the name of the database, your chosen mysql password/username on the "application.properties" file.
 
-To run the application locally, You'll need to have a MySQL database (I used MySQL Workbench) and specify the name of the database, your chosen mysql password and username in the "application.properties" file.
+MySQL Installer (MySQL Workbench, MySQL Server, MySQL Sample database)- https://dev.mysql.com/downloads/installer/ 
 
 ```
 ## Built With
