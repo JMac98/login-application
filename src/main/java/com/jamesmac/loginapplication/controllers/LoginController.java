@@ -20,7 +20,7 @@ public class LoginController {
 
     @RequestMapping(value={"/", "/login"}, method = RequestMethod.GET)
     public ModelAndView login(){
-        ModelAndView modelAndView = new ModelAndView();
+        ModelAndView modelAndView = new ModelAndView(); //ModelAndView type allows us to return both a model and view
         modelAndView.setViewName("login");
         return modelAndView;
     }
@@ -51,7 +51,6 @@ public class LoginController {
             modelAndView.addObject("successMessage", "User has been registered successfully");
             modelAndView.addObject("user", new User());
             modelAndView.setViewName("registration");
-
         }
         return modelAndView;
     }

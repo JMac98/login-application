@@ -8,6 +8,8 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import java.util.Set;
 
+// @NotEmpty validation
+
 @Data
 @Entity
 @Table(name = "user")
