@@ -25,5 +25,4 @@ MySQL Installer (MySQL Workbench, MySQL Server, MySQL Sample database)- https://
 
 
 * [AWS RDS](https://aws.amazon.com/rds/) - Amazons cloud based relational database service
-* [AWS S3](https://aws.amazon.com/s3/) - Storage of application jar file
 * [AWS EC2](https://aws.amazon.com/ec2/) - Cloud computing service
