@@ -7,7 +7,7 @@ Spring Boot login application.
 * Password encrypted with Spring security and BCrypt
 * Role access control
 
-Deployed into a EC2 instance 
+Used to be deployed onto an EC2 instance.
 
 ### Prerequisites
 ```
